@@ -24,21 +24,17 @@ i = 0;
 function foto() {
 
     var foto = document.getElementsByClassName('foto');
-    i++;
-    foto[i].style.display = "none";
 
-    if (i > 4) {
+
+    i++;
+    if (i >= 3) {
         alert("acabou");
 
     } else {
-        foto[i + 1].style.display = "block";
         console.log(i);
-
-
-
-
-
-
+        foto[i - 1].style.display = "none";
+        foto[i].style.display = "block";
 
     }
+
 }
