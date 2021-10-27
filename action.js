@@ -18,7 +18,17 @@ function mostrar() {
     var fechar = document.getElementById('loguin').style;
     mostrar.display = "block";
     fechar.display = "none";
+}
+i = 1;
+
+function foto() {
+
+    var foto = document.getElementsByClassName('foto');
 
 
 
+    console.log(i);
+    for (i; i < 10; i++) {
+        foto[i].style.display = "none"
+    }
 }
