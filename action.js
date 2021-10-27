@@ -19,16 +19,26 @@ function mostrar() {
     mostrar.display = "block";
     fechar.display = "none";
 }
-i = 1;
+i = 0;
 
 function foto() {
 
     var foto = document.getElementsByClassName('foto');
+    i++;
+    foto[i].style.display = "none";
+
+    if (i > 4) {
+        alert("acabou");
+
+    } else {
+        foto[i + 1].style.display = "block";
+        console.log(i);
 
 
 
-    console.log(i);
-    for (i; i < 10; i++) {
-        foto[i].style.display = "none"
+
+
+
+
     }
 }
