@@ -100,15 +100,15 @@ audio {
 
 #musica1 {
     position: absolute;
-    top: 10%;
-    left: 8%;
+    bottom: 10%;
+    left: 5%;
     border-radius: 50px;
 }
 
 #musica2 {
     position: absolute;
-    top: 10%;
-    right: 30%;
+    bottom: 10%;
+    right: 45%;
     border-radius: 50px;
 }
 
@@ -120,19 +120,22 @@ audio {
     .quadrado-da-foto {
         position: relative;
         left: 0;
-        height: 80vw;
+        height: 100vw;
     }
     .foto {
-        height: 70vw;
+        height: 110vw;
         top: 10px;
     }
     .letra {
-        top: 20px;
+        top: 80px;
     }
     .video1 {
         display: block;
         position: absolute;
         top: 50px;
         width: 100%;
+    }
+    audio {
+        width: 180px;
     }
 }
