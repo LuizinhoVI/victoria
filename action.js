@@ -7,7 +7,7 @@ function senhaa() {
     if (senha == "02102021") {
         alert("Feliz o nosso dia! VICTORIA 1 MÊS !!! <3 ");
         mostrar();
-    }
+    } else { alert("senha errada, não acredito que esqueceu :/ ") }
 
 }
 
