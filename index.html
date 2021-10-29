@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victoria</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="responsivo.css">
 </head>
 
 <script src="action.js">
@@ -23,13 +24,15 @@
     <div align="center" id="entrada">
 
         <div class="loguin">
+            <label for="">VICTORIA</label>
 
             <form style="display:block;" id="loguin" method="dialog">
 
 
                 <label for="">
             Nome
-        </label> <input type="text" id="nome">
+        </label>
+                <input type="text" id="nome">
                 <br> <label for="">Senha</label>
                 <input id="senha" type="password" name="" value="">
                 <br>
@@ -43,7 +46,7 @@
 
 
 
-        <div onclick="foto()" style="display: none;" class="parte2" id="parte">
+        <div onclick="foto()" style="display: block;" class="parte2" id="parte">
 
             <div class="video">
 
@@ -173,7 +176,7 @@
 
             <!-- parte da musica -->
             <div id="musica1">
-                <audio src="pra você.mp3" id="musica" controls>
+                <audio src="pra você.mp3" id="musica" controls autoplay>
             <source src="pra você.ogg" type="audio/ogg">
         </audio>
             </div>

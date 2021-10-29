@@ -5,7 +5,7 @@ function senhaa() {
 
     console.log(senha);
     if (senha == "02102021") {
-        alert("Feliz o nosso dia!");
+        alert("Feliz o nosso dia! VICTORIA 1 MÊS !!! <3 ");
         mostrar();
     }
 

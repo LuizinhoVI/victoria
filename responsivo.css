@@ -1,0 +1,39 @@
+@media only screen and (max-width:600px) {
+    #fotos {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .quadrado-da-foto {
+        position: relative;
+        left: 0;
+        height: 100vw;
+    }
+    .foto {
+        height: 110vw;
+        top: 10px;
+    }
+    .letra {
+        top: 80px;
+    }
+    .video1 {
+        display: block;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+    audio {
+        width: 180px;
+        position: absolute;
+        bottom: 0;
+    }
+    #musica1 {
+        bottom: 10%;
+        left: 5%;
+        border-radius: 50px;
+    }
+    #musica2 {
+        bottom: 10%;
+        right: 45%;
+        border-radius: 50px;
+    }
+}
