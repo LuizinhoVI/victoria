@@ -98,6 +98,11 @@ audio {
     border: solid red 1px;
 }
 
+.loguin {
+    position: relative;
+    top: 50%;
+}
+
 #musica1 {
     position: absolute;
     bottom: 10%;

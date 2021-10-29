@@ -17,10 +17,14 @@ function mostrar() {
     var mostrar = document.getElementById('fotos').style;
     var fechar = document.getElementById('loguin').style;
     var parte = document.getElementById('parte').style;
+    var musica = document.getElementById('musica');
 
     mostrar.display = "block";
     parte.display = "block";
     fechar.display = "none";
+    musica.audio = "autoplay"
+
+
 }
 
 

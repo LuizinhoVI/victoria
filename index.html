@@ -22,26 +22,28 @@
 
     <div align="center" id="entrada">
 
+        <div class="loguin">
 
-        <form style="display:none;" id="loguin" method="dialog">
+            <form style="display:block;" id="loguin" method="dialog">
 
 
-            <label for="">
+                <label for="">
             Nome
         </label> <input type="text" id="nome">
-            <br> <label for="">Senha</label>
-            <input id="senha" type="password" name="" value="">
-            <br>
+                <br> <label for="">Senha</label>
+                <input id="senha" type="password" name="" value="">
+                <br>
 
-            <input onclick="senhaa()" type="submit" id="btt" style="height: 40px; width: 5%;" value="Entrar">
-
-
-        </form>
+                <input onclick="senhaa()" type="submit" id="btt" style="height: 40px; width: 5%;" value="Entrar">
 
 
+            </form>
+
+        </div>
 
 
-        <div onclick="foto()" style="display: block;" class="parte2" id="parte">
+
+        <div onclick="foto()" style="display: none;" class="parte2" id="parte">
 
             <div class="video">
 
@@ -167,22 +169,28 @@
                 </div>
                 <div>a</div>
             </div>
+
+
+            <!-- parte da musica -->
+            <div id="musica1">
+                <audio src="pra você.mp3" id="musica" controls>
+            <source src="pra você.ogg" type="audio/ogg">
+        </audio>
+            </div>
+
+            <div id="musica2">
+                <audio src="janeiro.mp3" controls>
+            <source src="janeiro.ogg" type="audio/ogg">
+        </audio>
+            </div>
+
+
         </div>
         <script src="action.js ">
         </script>
     </div>
 
-    <div id="musica1">
-        <audio src="pra você.mp3" controls autoplay>
-            <source src="pra você.ogg" type="audio/ogg">
-        </audio>
-    </div>
 
-    <div id="musica2">
-        <audio src="janeiro.mp3" controls>
-            <source src="janeiro.ogg" type="audio/ogg">
-        </audio>
-    </div>
 </body>
 
 
