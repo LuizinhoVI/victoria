@@ -2,12 +2,18 @@ function senhaa() {
 
 
     var senha = document.getElementById('senha').value
+    var nome = document.getElementById('nome').value
 
     console.log(senha);
-    if (senha == "02102021") {
-        alert("Feliz o nosso dia! VICTORIA 1 MÊS !!! <3 ");
-        mostrar();
-    } else { alert("senha errada, não acredito que esqueceu :/ ") }
+
+    if (nome == "victoria") {
+
+
+        if (senha == "02102021") {
+            alert("Feliz o nosso 1 MÊS !!! <3 ! VICTORIA BRITO");
+            mostrar();
+        } else { alert("senha errada, não acredito que esqueceu :/ ") }
+    } else { alert("você não é o meu amor, só ela pode entrar no site") }
 
 }
 
